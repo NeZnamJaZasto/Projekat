@@ -346,25 +346,75 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	padding:20px 0;
 	}
 
-#footer ul{
+#footer ul, #footer a{
 	margin:0;
 	padding:0;
 	list-style:none;
+	color:#CCCCCC;
 	}
+
+#footer li a:link, #footer li a:visited, #footer li a:hover{
+	margin:0;
+	padding:0;
+	color:#CCCCCC;
+	}
+
+#footer ul ul li a:link, #footer ul ul li a:visited{
+	border:none;
+	}
+
+#footer li a:hover, #footer li.active a{
+	color:#FFFF00;
+	}
+	
+#footer li li a:link, #footer li li a:visited{
+	color:#CCCCCC;
+	border:none;
+	}
+	
+#footer li li a:hover{
+	color:#000000;
+	}
+
+
+
+
 
 #footer h2{
 	margin:0 0 15px 0;
-	padding:0 0 8px 0;
+	padding:0 0 4px 0;
 	font-size:18px;
 	color:#CCCCCC;
 	background-color:#000000;
 	border-bottom:1px dotted #CCCCCC;
 	}
 
+#footer h2 a:link, #footer h2 a:visited, #footer h2 a:hover{
+	margin:0;
+	padding:0;
+	color:#CCCCCC;
+	}
+
+
+#footer h2 a:hover, #footer h2.active a{
+	color:#FFFF00;
+	}
+	
+#footer h2 h2 a:link, #footer h2 h2 a:visited{
+	color:#CCCCCC;
+	border:none;
+	}
+	
+#footer h2 h2 a:hover{
+	color:#000000;
+	}
+
+
+
 #footer .box{
 	display:block;
-	float:right;
-	width:250px;
+	float:left;
+	width:215px;
 	margin:0 0 0 25px;
 	padding:0;
 	}
