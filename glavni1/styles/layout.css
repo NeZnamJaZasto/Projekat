@@ -100,6 +100,20 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	border:none;
 	}
 
+
+#topline ul ul li a:link, #topline ul ul li a:visited{
+	border:none;
+	}
+
+#topline li a:hover, #topline li.active a{
+	color:#FFFF00;
+	}
+	
+	
+#topnav li li a:hover{
+	color:#FFFF00;
+	}
+
 #topline #search{
 	display:block;
 	float:right;
