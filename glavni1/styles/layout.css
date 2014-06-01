@@ -172,6 +172,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 .container{
 	padding:20px 0;
+	height: 800px;
 	}
 
 .content{
@@ -179,6 +180,29 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	float:left;
 	width:630px;
 	}
+
+.full{
+	height: 100%;
+	}
+
+.partR{
+	height: 20%;
+	width: 100%;
+}
+
+.partR h1{
+	float: right;
+
+}
+
+.partL{
+	height: 20%;
+	width: 100%;
+}
+
+.partL h1{
+	float: left;
+}
 
 /* ------Comments-----*/
 
