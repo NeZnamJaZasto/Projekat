@@ -149,7 +149,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	background-color:#000000;
 	}
 #header #logo img{
-	width: 20%;
+	width: 60%;
+	background-color:#ffffff;
 	}
 
 #header h1 strong{
