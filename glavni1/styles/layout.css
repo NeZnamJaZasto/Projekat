@@ -106,12 +106,12 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	}
 
 #topline li a:hover, #topline li.active a{
-	color:#FFFF00;
+	color:#FFD700;
 	}
 	
 	
 #topnav li li a:hover{
-	color:#FFFF00;
+	color:#FFD700;
 	}
 
 #topline #search{
@@ -139,7 +139,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #header #logo{
 	display:block;
 	float:left;
-	margin-top:7px;
+	margin-top:-10px;
+	margin-bottom: -20px;
 	overflow:hidden;
 	}
 
@@ -148,14 +149,17 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	color:#999999;
 	background-color:#000000;
 	}
-#header #logo img{
-	width: 60%;
-	background-color:#ffffff;
+#header #logo img {
+	max-height: 500px;
+	max-width: 500px;
+	width: 300px;
+	height: 140px;
+	background-color:#000000;
 	}
 
 #header h1 strong{
 	font-weight:normal;
-	color:#FFFF00;
+	color:#FFD700;
 	background-color:#000000;
 	}
 
@@ -406,7 +410,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	}
 
 #footer li a:hover, #footer li.active a{
-	color:#FFFF00;
+	color:#FFD700;
 	}
 	
 #footer li li a:link, #footer li li a:visited{
@@ -439,7 +443,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 
 #footer h2 a:hover, #footer h2.active a{
-	color:#FFFF00;
+	color:#FFD700;
 	}
 	
 #footer h2 h2 a:link, #footer h2 h2 a:visited{
