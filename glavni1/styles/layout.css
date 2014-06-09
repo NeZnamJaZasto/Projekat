@@ -55,6 +55,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	}
 
 .col0, .col0 a{color:#999999; background-color:#333333;}
+.col0 img{display: inline; width: 30%;}
 .col1{color:#666666; background-color:#000000; border-bottom:1px solid #363636;}
 .col2{color:#FFFFFF; background-color:#333333; padding:20px 0;}
 .col2 a{color:#FFFFFF; background-color:#191919;}
@@ -64,7 +65,12 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .col5, .col5 a{color:#999999; background-color:#1B1B1B;}
 .col4, .col5{font-family: Verdana, Geneva, sans-serif;}
 .col4 h2, .col5 h2{font-family: Georgia, "Times New Roman", Times, serif;}
-.col6{background: url(http://operatheatremadlenianum.com/sites/default/files/velika-sala-2.jpg);no-repeat center center fixed;}
+.col6 {background: url(../slike/velika-sala-2.jpg);no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+ .col6 img{display: inline; width: 30%;}
 .col7{background: url(../slike/Screenshot_1.png); no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -83,7 +89,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 /* ----------------------------------------------TopBar-------------------------------------*/
 
 #topline{
-	padding:10px 0;
+	padding:8px 0;
 	}
 
 #topline ul{
@@ -96,7 +102,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #topline li{
 	display:inline;
 	margin:0 8px 0 0;
-	padding:0 10px 0 0;
+	padding:0 8px 0 0;
 	border-right:1px solid #999999;
 	}
 
