@@ -210,6 +210,12 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .full{
 	height: 100%;
 	color: #FFFFFF;
+    }
+
+.full2{
+	height: 100%;
+	color: #FFFFFF;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 	}
 
 .partR{
