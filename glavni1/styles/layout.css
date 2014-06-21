@@ -70,7 +70,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-font-color=#FF0456;}
+}
 .col6 img{display: inline; width: 30%;}
 .col6 a{background-color: none;}
 .col7{background: url(../slike/Screenshot_1.png); no-repeat center center fixed; 
@@ -206,6 +206,7 @@ font-color=#FF0456;}
 
 .full{
 	height: 100%;
+	color: #FFFFFF;
 	}
 
 .partR{
